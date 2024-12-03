@@ -25,24 +25,41 @@ Fort Knox - apropo moniker for protection. This repo is a collection to create a
 
 > About LoTR as an organization:
 
-Founded after the fall of Sauron.
+Founded after the fall of Sauron, LOTR is a worldwide organization, geared toward securing your assets.  Take a look at the company layout below:
 
-## Powershell
+### Company Information
 
-For Windows enumeration / automation / etc
+Leadership:
 
-## Python
+- CEO: Aragorn, Son of Arathorn, King of Gondor
+- CISO: looking for a replacement
+- CTO: Gimli, Gloin's Son
+- COO: Legolas, Woodland Elf
 
-tbd
+Middle (Earth) Management:
 
-## Git
+- Director, IT: Open
+- Director, Security: Samwise Gamgee
+- Director, Operations: Meriadoc Took
+- Director, HR: Pippin Merryweather
 
+Locations:
 
-
-## Concepts
-
+- Lothlorien
+- Moria
+- The Shire
+- Gondor (HQ)
 
 ## Arch
 
+## Concepts
 
-## ops
+## Git
+
+## Ops
+
+## Powershell
+
+> For Windows enumeration / automation / etc
+
+## Python
