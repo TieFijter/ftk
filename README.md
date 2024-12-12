@@ -79,3 +79,7 @@ Locations:
 > For Windows enumeration / automation / etc
 
 ## Python
+
+<!---
+TieFijter/TieFijter is a ✨ special ✨ repository, because I made it. Contact me if you wish tyler.trevenen@gmail.com.  btw - if you got here from linkedIN and just OSINT'd me - well color me impressed, and you get a gold star!
+--->
