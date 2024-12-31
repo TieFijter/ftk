@@ -11,3 +11,5 @@ git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
 ```
+
+## merging a branch
