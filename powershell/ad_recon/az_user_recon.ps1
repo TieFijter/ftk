@@ -2,15 +2,23 @@
 
 Assumptions:
 
-1. Running in vscode - extenstions:
+1. Running in vscode - extentions:
 
 - Azure Cloud Shell installed
 - Microsoft Entra External ID
 
-2. Elevated user account (eg secuirty admin role)
+2. Elevated user account (eg security admin role)
 3. node.js installed
 
 #>
+
+###################################################################
+#####                   DEFINE VARIABLES                      #####
+###################################################################
+
+# Group ID of users
+
+$azgid = "azure group ID insert here"
 
 # Authenticate with user account
 Connect-MGGraph -Scope "User.Read.All"
@@ -69,7 +77,7 @@ Import-Module Microsoft.Graph
 Connect-MgGraph -Credential (Get-Credential)
 
 # Define the Azure AD group ID (replace with your group's ID)
-$groupId = "azuregroupID"
+$groupId = "$azgid"
 
 # Install required modules
 Install-Module -Name Microsoft.Graph -Force -AllowClobber
@@ -79,7 +87,7 @@ Import-Module Microsoft.Graph
 Connect-MgGraph -Credential (Get-Credential)
 
 # Define the Azure AD group ID (replace with your group's ID)
-$groupId = "azuregroupID"
+$groupId = "$azgid"
 $dev
 # Get devices in the Azure AD group
 $devices = Get-MgGroupMember -GroupId $groupId -All
