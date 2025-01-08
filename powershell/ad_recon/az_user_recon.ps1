@@ -27,7 +27,7 @@ Connect-MGGraph -Scope "User.Read.All"
 
 $devices = Get-MgDevice
 
-# lo0p through each device and get the user
+# loop through each device and get the user
 $results = @()
 
 foreach ($device in $devices) {
