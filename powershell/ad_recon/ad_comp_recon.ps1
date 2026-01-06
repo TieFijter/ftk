@@ -8,8 +8,6 @@ Assumptions:  computers are named like the user, for example, I work in IT and m
 samaccountname is probably something like bbaggins@theshire.net
 hostname is something like IT-bbaggins.theshire.net
 
-90% of orgs are structured in this way OR
-
 TSN-SERIAL
 
 #>
